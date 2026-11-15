@@ -1,0 +1,17 @@
+name: AlienAdventure
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  adventure:
+    description: Start Steve's alien watch adventure.
+    usage: /adventure start
+  dna:
+    description: Mix three different mob DNA samples.
+    usage: /dna mix <sample1> <sample2> <sample3>
+  alex:
+    description: Ask Alex for brewing and crafting help.
+    usage: /alex
+  alienbrew:
+    description: Brew the complete alien serum with Alex's recipe.
+    usage: /alienbrew
